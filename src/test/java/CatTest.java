@@ -28,8 +28,6 @@ public class CatTest {
 
         Assert.assertEquals("Method getSound return incorrect value.", expectedSound, actualSound );
     }
-
-
     @Mock
     Predator predator;
 

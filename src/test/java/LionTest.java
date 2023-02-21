@@ -33,7 +33,7 @@ public class LionTest {
     }
 
     @Parameterized.Parameters
-    public static Object[][] getTypeOfFoodForAmimal() {
+    public static Object[][] getTypeOfFoodForAnimal() {
         return new Object[][] {
                 { "Самец", true},
                 { "Самка", false},

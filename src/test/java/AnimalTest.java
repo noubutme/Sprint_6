@@ -26,7 +26,6 @@ public class AnimalTest {
         };
     }
 
-
     @Test
     public void getFoodForHerbivoreReturnCorrectValues() throws Exception {
         List<String> actualTypeOfFood = animal.getFood(typeOfAnimal);
